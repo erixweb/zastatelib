@@ -1,6 +1,6 @@
 {
   "name": "zastate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Less than 2.5kB state management library for web development",
   "main": "src/index.js",
   "type": "module",
