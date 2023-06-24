@@ -1,0 +1,16 @@
+{
+  "name": "zastate",
+  "version": "1.0.0",
+  "description": "Less than 2.5kB state management library for web development ",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": [
+    "states",
+    "react",
+    "zastate",
+    "library",
+    "web"
+  ],
+  "author": "erixweb",
+  "license": "ISC"
+}
