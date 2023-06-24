@@ -11,6 +11,7 @@
     "library",
     "web"
   ],
+  "repository": "erixweb/zastatelib",
   "author": "erixweb",
   "license": "ISC"
 }
