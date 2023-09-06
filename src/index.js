@@ -1,4 +1,4 @@
-export const createState = (initialState) => {
+export const create = (initialState, methods = {}) => {
   let val
 
   return val = {
@@ -11,15 +11,16 @@ export const createState = (initialState) => {
       this.state = value
       this.effect(value)
     },
-    listen: function(fn) {
+    subscribe: function(fn) {
       this.effect = fn
-    }
+    },
+    methods
   }
 }
 export const useEffect = (fn, st) => {
     if (st) {
-        return st.listen(fn)
+        return st.subscribe(fn)
     } else {
-      console.error("Signal is not defined")
+      console.error("State is not defined")
     }
 }
